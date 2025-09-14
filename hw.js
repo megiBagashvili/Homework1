@@ -51,7 +51,7 @@ function wovelCount(str) {
     }
     return count;
 }
-console.log(wovelCount("BliBleBlaBloBlu"));
+console.log(wovelCount("BlIBleBlaBloBlUU"));
 
 //HW TASK 5
 function factorial(n) {
@@ -67,13 +67,13 @@ console.log(factorial(4));
 //HW TASK 6
 function sumOfEven(n) {
     let res = 0;
-    if (n <= 0) { return "undefined"; }
+    if (n <= 0) { return; }
     for (let i = 0; i <= n; i++) {
         if (i % 2 === 0) { res += i; }
     }
     return res;
 }
-console.log(sumOfEven(10));
+console.log(sumOfEven(12));
 
 //HW TASK 7
 function gradeCalc(grade){
